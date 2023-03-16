@@ -21,6 +21,7 @@
 		AB6FE64329C312CD00C31355 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE64229C312CD00C31355 /* SessionController.swift */; };
 		AB6FE64529C3130900C31355 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE64429C3130900C31355 /* ProgressController.swift */; };
 		AB6FE64729C3132600C31355 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE64629C3132600C31355 /* SettingsController.swift */; };
+		AB6FE64A29C31CA600C31355 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FE64929C31CA600C31355 /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AB6FE64229C312CD00C31355 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		AB6FE64429C3130900C31355 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		AB6FE64629C3132600C31355 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		AB6FE64929C31CA600C31355 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,7 @@
 		AB6FE63E29C3129E00C31355 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
-				AB097B4629C1C18700571A21 /* OverviewController.swift */,
+				AB6FE64829C31C8200C31355 /* Views */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -169,6 +171,15 @@
 				AB6FE64629C3132600C31355 /* SettingsController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		AB6FE64829C31C8200C31355 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB097B4629C1C18700571A21 /* OverviewController.swift */,
+				AB6FE64929C31CA600C31355 /* SecondaryButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 				AB097B5929C1C43100571A21 /* TabBarController.swift in Sources */,
 				AB097B5C29C1C4E500571A21 /* UIColor + Ext.swift in Sources */,
 				AB6FE64329C312CD00C31355 /* SessionController.swift in Sources */,
+				AB6FE64A29C31CA600C31355 /* SecondaryButton.swift in Sources */,
 				AB6FE64529C3130900C31355 /* ProgressController.swift in Sources */,
 				AB6FE63729C30DFE00C31355 /* NavBarController.swift in Sources */,
 				AB097B5F29C1C5C900571A21 /* Resources.swift in Sources */,
